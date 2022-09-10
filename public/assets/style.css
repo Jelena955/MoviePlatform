@@ -1,0 +1,276 @@
+* {
+    font-family: "Droid Sans", sans-serif;
+    font-weight: 900;
+    text-decoration: none !important;
+    color: rgba(171, 183, 183, 0.5);
+}
+body {
+    background-color: black;
+}
+.pagination{
+    background-color: black !important;
+    color: rgba(245, 230, 83, 0.5);
+}
+
+.content {
+    background-color: black;
+}
+
+footer div div {
+    color: white;
+}
+.title {
+    color: rgba(245, 230, 83, 0.5);
+}
+
+b {
+    color: rgba(171, 183, 183, 0.2);
+}
+
+a,
+button a,
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.movielink {
+    color: rgba(245, 230, 83, 0.5);
+}
+.movielink:hover {
+    color: rgba(171, 183, 183, 0.5);
+}
+.fa-star,
+.fa-star-half-o {
+    color: rgb(253, 218, 13);
+}
+.user_rating {
+    color: rgba(13, 57, 253, 0.8);
+}
+.empty_star {
+    color: rgba(171, 183, 183, 0.5);
+}
+.empty_star:hover,
+.user_rating:hover {
+    color: rgba(13, 57, 253, 0.8);
+    font-size: large;
+}
+.movielink {
+    color: rgba(245, 230, 83, 0.5);
+}
+.movielink:hover {
+    color: rgba(171, 183, 183, 0.5);
+}
+
+a:hover,
+button a:hover,
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer  */
+
+footer {
+    background-color: black;
+}
+footer div div {
+    color: white;
+}
+
+/* Forms */
+
+form,
+form div,
+label,
+input,
+form p {
+    color: black;
+    background-color: white;
+}
+
+.select2-container .select2-selection--multiple {
+    width: 200px;
+    border: 2px solid rgba(245, 230, 83, 0.5) !important;
+    /*background-color:rgba(171, 183, 183, 0.2)  !important;*/
+    color: rgba(245, 230, 83, 0.5) !important;
+}
+.select2-container--open .select2-dropdown--below {
+    width: 200px !important;
+    background-color: black !important;
+}
+.select2-container--default .select2-selection--multiple {
+    background-color: black !important;
+    color: rgba(245, 230, 83, 0.5) !important;
+}
+
+/* Rating stars */
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+.modal-body {
+    margin: 5% auto;
+    color: #333;
+}
+.modal .modal-title {
+    font-size: 2em;
+    color: #333;
+}
+
+/* Ratings widget */
+.rate {
+    display: inline-block;
+    border: 0;
+}
+/* Hide radio */
+.rate > input {
+    display: none;
+}
+/* Order correctly by floating highest to the right */
+.rate > label {
+    float: right;
+}
+/* The star of the show */
+.rate > label:before {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 0.3rem 0.2rem;
+    margin: 0;
+    cursor: pointer;
+    font-family: FontAwesome;
+    content: "\f005 "; /* full star */
+}
+
+/* Half star trick */
+.rate .half:before {
+    content: "\f089 "; /* half star no outline */
+    position: absolute;
+    padding-right: 0;
+}
+/* Click + hover color */
+input:checked ~ label, /* color current and previous stars on checked */
+label:hover, label:hover ~ label {
+    /* color: #73B100;  */
+    color: blue;
+} /* color previous stars on hover */
+
+/* Hover highlights */
+input:checked + label:hover, input:checked ~ label:hover, /* highlight current and previous stars */
+input:checked ~ label:hover ~ label, /* highlight previous selected stars for new rating */
+label:hover ~ input:checked ~ label /* highlight previous selected stars */ {
+    /* color: #A6E72D;  */
+    color: rgb(0, 106, 255);
+}
+
+/* end of rating stars */
+
+.click {
+    margin-left: 120px !important;
+    background-color: black !important;
+    border: 1px solid rgba(245, 230, 83, 0.5) !important;
+    color: rgba(245, 230, 83, 0.5) !important;
+}
+.click:hover {
+    background-color: rgba(245, 230, 83, 0.5) !important;
+    color: black !important;
+}
+#popup {
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    top: 600px;
+    height: 200px;
+    background-color: rgba(245, 230, 83, 0.5) !important;
+    /*//opacity: 0.5;*/
+}
+#closePopUp {
+    margin-left: 0px !important;
+    height: 50px;
+    opacity: 1;
+}
+#modalRating{
+    background-color: rgba(245, 230, 83, 0.5) !important;
+}
+#modal_body{
+    background-color: rgba(245, 230, 83, 0.5) !important;
+}
+.rate > label {
+    background-color: rgba(245, 230, 83, 0.5) !important;
+ }
+#popup h1 {
+    color: black;
+    font-size: 2rem;
+}
+#showtagsless:hover {
+    background-color: rgba(245, 230, 83, 0.5) !important;
+    color: black !important;
+}
+
+.nav-btn-page {
+    margin-left: 20px !important;
+    background-color: black !important;
+    padding: 5px 7px;
+    border: 2px solid rgba(245, 230, 83, 0.5) !important;
+    color: rgba(245, 230, 83, 0.5) !important;
+}
+.nav-btn-page:hover {
+    background-color: rgba(245, 230, 83, 0.5) !important;
+    color: black !important;
+}
+.current-page-btn {
+    margin-left: 20px !important;
+    background-color: rgba(245, 230, 83, 0.5) !important;
+    padding: 5px 7px;
+    border: 2px solid rgba(245, 230, 83, 0.5) !important;
+    color: black !important;
+}
+
+.filters-form {
+    background-color: black !important;
+    width: auto;
+    padding: 10px 15px;
+    border: 2px solid rgba(245, 230, 83, 0.5) !important;
+}
+
+.filters {
+    margin-left: 20px !important;
+    background-color: black !important;
+    padding: 5px 7px;
+    border: 2px solid rgba(245, 230, 83, 0.5) !important;
+    border-radius: 4%;
+    color: rgba(245, 230, 83, 0.5) !important;
+}
+.submit-btn {
+    margin-left: 10px !important;
+    background-color: rgba(245, 230, 83, 0.5) !important;
+    padding: 5px 7px;
+    border: 2px solid rgba(245, 230, 83, 0.5) !important;
+    color: black !important;
+}
+.modal-backdrop {
+    position: relative !important;
+}
+
+/* makes modal appear after changing z-index on tag modal */
+
+.modal {
+    position: relative;
+    top: -200px;
+    left: 0;
+    z-index: 1055;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+}
+.input-group .btn {
+    position: relative;
+    z-index: 0 !important;
+}
+.modal-backdrop {
+    z-index: -1 !important;
+    height: 103vh;
+}
